@@ -211,11 +211,11 @@ i{
 .foot i{
   width:10%;
   text-align:center;
-margin:auto;
 }
 #you{
   color:red;
   font-size:30px;
+
 }
 form{
  text-align:center;
@@ -227,6 +227,7 @@ form{
 label{
   margin:50px;
   font-size:20px;
+  margin-bottom:5px;
 }
 input{
   border:3px solid blue ;
