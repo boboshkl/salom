@@ -1,0 +1,242 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box ;
+}
+.section{
+  width:100%;
+  height:80px;
+  position:fixed;
+  background-color:#0F1983;
+  display:flex;
+}
+.section nav{
+  width:50%;
+  text-align:center;
+  font-size:1.3rem;
+  height:100%;
+}
+.section nav ul{
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  width:100%;
+  height:100%;
+}
+.section nav ul li{
+  list-style-type:none;
+  margin:20px;
+  width:25%;
+  text-align:center;
+}
+a{
+  text-decoration:none;
+  display:block;
+  color:#fff;
+}
+a:hover{
+  color:#C6BE14;
+}
+
+.Main{
+  background-image:url('./image/school.jpg');
+  background-size: cover;
+  height:1000px;
+  font-size:1.2rem;
+  color:#fff;
+}
+p{
+  text-align:center;
+  width:50%;
+  font-style: italic ;
+  color:#fff;
+  margin:10px;
+}
+.rgb{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background-color:rgba(120,120,100, 0.3);
+  height:100%;
+  float:left;
+  font-weight: bold ;
+}
+h3{
+  color:#FF0808;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', ;
+  font-style:verdana;
+  margin:10px;
+}
+span{
+  width:20%;
+  background-color:#0D812C;
+  text-align:center;
+  height:60px;
+  padding-top:15px;
+  margin:10px;
+  border:none;
+  border-top: 5px groove blue;
+  border-radius:10px 5px 10px 5px;
+}
+h1{
+  color:rgb(100,20,200);
+}
+.univercity{
+  width:100%;
+  height:1000px;
+  background-color:#2BDBCD;
+  text-align:center;
+  font-size:1.3rem;
+  color:#1037E4;
+}
+.unv{
+ width:70%;
+ background-size:500px;
+ height:600px;
+ margin:0 auto;
+}
+img{
+  display:block;
+  width:100%;
+  border-radius:40%;
+}
+.text1{
+  height:200px;
+}
+.Box{
+  display:flex;
+  flex-direction:column;
+  height:100%;
+  justify-content:space-evenly;
+  align-items:center;
+}
+.flex{
+  display:flex;
+  width:100%;
+  height:800px;
+  justify-content:space-around;
+  align-items:center;
+}
+.left{
+  border:1px solid #000000;
+  width:30%;
+  margin:10px;
+  height:500px;
+  text-align:center;
+}
+.right{
+  border:1px solid #000000;
+  width:30%;
+  margin:10px;
+  height:500px;
+  text-align:center;
+}
+h1{
+  text-align: center ;
+}
+.align{
+  width:100%;
+  height:800px;
+  display:flex;
+  background-color:#274064;
+  justify-content:space-around;
+  align-items:center;
+  
+}
+.tup {
+  height: 200px;
+  border-radius: 0;
+  width: 100%;
+}
+
+em {
+  width:50%;
+  color:#fff;
+}
+.align div{
+  margin:10px;
+}
+.icon{
+  width:40%;
+  height:100%;
+}
+i{
+  width:20%;
+  height:50px;
+  font-size:50px;
+  color:#fff;
+  float:right;
+  margin-top:20px;
+}
+#tel{
+  color:#fff;
+}
+#ins{
+  color:red;
+}
+
+#twit{
+  color:#29DF0B;
+}
+.menu{
+  margin-top:20px;
+  width:10%;
+  color:#000000;
+  height:50%;
+  display:flex;
+  flex-direction:column;
+}
+.men{
+  background-color:#000000;
+  height:8px;
+  width:35px;
+  margin:5px;
+  margin-top:auto;
+}
+.foot{
+  display:flex;
+  justify-content:space-evenly;
+  background-color:#4F4457;
+  width:100%;
+  height:400px;
+  text-align:left;
+  flex-direction:column;
+}
+.foot i{
+  width:30%;
+  text-align:center;
+}
+#you{
+  color:red;
+}
+form{
+ text-align:center;
+ display: flex;
+ flex-direction:column;
+ justify-content:space-evenly;
+ align-items:center;
+}
+label{
+  margin:50px;
+  font-size:20px;
+}
+input{
+  border:3px solid blue ;
+  width:50%;
+  margin:0 auto ;
+  margin-bottom:50px;
+}
+button{
+  margin-bottom: 30px;
+  height:50px;
+  width:8%;
+  border-radius:10px;
+  background-color:green;
+  color:blue;
+}
+.iv{
+  display:flex;
+  justify-content: space-evenly ;
+  align-items:space-evenly;
+}
