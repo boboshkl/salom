@@ -1,5 +1,5 @@
 *{
-  margin:0;
+  margin:20px;
   padding:0;
   box-sizing: border-box ;
 }
@@ -172,13 +172,16 @@ i{
 }
 #tel{
   color:#fff;
+  font-size:30px;
 }
 #ins{
   color:red;
+  font-size:30px;
 }
 
 #twit{
   color:#29DF0B;
+  font-size:30px;
 }
 .menu{
   margin-top:20px;
@@ -210,6 +213,7 @@ i{
 }
 #you{
   color:red;
+  font-size:30px;
 }
 form{
  text-align:center;
@@ -227,6 +231,7 @@ input{
   width:50%;
   margin:0 auto ;
   margin-bottom:50px;
+  height:40px;
 }
 button{
   margin-bottom: 30px;
@@ -238,6 +243,6 @@ button{
 }
 .iv{
   display:flex;
-  justify-content: space-evenly ;
-  align-items:space-evenly;
+  margin:20px;
+
 }
