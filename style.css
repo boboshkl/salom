@@ -39,12 +39,11 @@ a:hover{
 }
 
 .Main{
-  background-image:url('school.jpg');
+  background-image:url('../image/school.jpg');
   background-size: cover;
   height:1000px;
   font-size:1.2rem;
   color:#fff;
-  width:100%;
 }
 p{
   text-align:center;
@@ -86,10 +85,10 @@ h1{
 .univercity{
   width:100%;
   height:1000px;
-  background-color:#2BDBCD;
+  background:linear-gradient(to right, darkblue, green) ;
   text-align:center;
   font-size:1.3rem;
-  color:#1037E4;
+  color:#fff;
 }
 .unv{
  width:70%;
@@ -140,7 +139,7 @@ h1{
   width:100%;
   height:800px;
   display:flex;
-  background-color:#274064;
+  background:radial-gradient(#fff, rgb(100,30,200),rgba(200,50,100, 0.5)) ;
   justify-content:space-around;
   align-items:center;
   
@@ -154,7 +153,6 @@ h1{
 em {
   width:50%;
   color:#fff;
-  margin-top:50px;
 }
 .align div{
   margin:10px;
@@ -173,16 +171,16 @@ i{
 }
 #tel{
   color:#fff;
-  font-size:30px;
+  animation:load 5s ease;
 }
 #ins{
   color:red;
-  font-size:30px;
+  animation:ins 5s ease;
 }
 
 #twit{
   color:#29DF0B;
-  font-size:30px;
+  animation: twit 5s ease;
 }
 .menu{
   margin-top:20px;
@@ -193,7 +191,7 @@ i{
   flex-direction:column;
 }
 .men{
-  background-color:#000000;
+  background-color:#fff;
   height:8px;
   width:35px;
   margin:5px;
@@ -207,15 +205,16 @@ i{
   height:400px;
   text-align:left;
   flex-direction:column;
+  font-size:2rem;
 }
 .foot i{
-  width:10%;
+  width:30%;
   text-align:center;
 }
 #you{
   color:red;
-  font-size:30px;
-
+  width:20%;
+  margin-bottom:40px;
 }
 form{
  text-align:center;
@@ -226,15 +225,19 @@ form{
 }
 label{
   margin:50px;
-  font-size:20px;
-  margin-bottom:5px;
+  font-size:40px;
+  color:rgb(200,10,255);
 }
 input{
-  border:3px solid blue ;
+  border:none;
   width:50%;
   margin:0 auto ;
   margin-bottom:50px;
-  height:40px;
+  height:80px;
+  font-size:1.3rem;
+  border-radius:20px 10px 20px 10px;
+  border-bottom: 15px solid #FF0303;
+  border-top: 15px solid  #1612BD;
 }
 button{
   margin-bottom: 30px;
@@ -246,6 +249,27 @@ button{
 }
 .iv{
   display:flex;
-  margin:20px;
+  justify-content: space-evenly ;
+  align-items:space-evenly;
+  width:30%;
+}
+@keyframes load{
+  0%{
+    transform:translateX(50%);
+  }
+  10%{
+    transform:translateX(30%);
+  }
+}
+
+
+
+@keyframes twit{
+  0%{
+    transform:translateX(-50%);
+  }
+  10%{
+    transform:translateX(-30%);
+  }
 
 }
