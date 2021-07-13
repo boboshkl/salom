@@ -39,7 +39,7 @@ a:hover{
 }
 
 .Main{
-  background-image:url('../image/school.jpg');
+  background-image:url('school.jpg');
   background-size: cover;
   height:1000px;
   font-size:1.2rem;
